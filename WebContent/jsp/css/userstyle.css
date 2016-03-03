@@ -1,0 +1,101 @@
+
+html,body{
+	margin: 0 0;
+	font-family: Arial,Helvetica,"Microsoft YaHei",sans-serif;
+	height: 100%;
+}
+.nav{
+	background:url('../top.png') no-repeat;
+	width: 100%;
+	height: 12%;
+	/*background-color: #537E98;*/
+	position: fixed;
+	z-index: 1000;
+}
+.name li{
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+	color: #3BDDDE;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.name li a{
+	color: white;
+	text-decoration: none;
+}
+.name li a:hover{
+	color: #22E6C3;
+}
+.information{
+	width: 8%;
+	height: 350px;
+	background-color: #40A3DA;
+	float: left;
+	margin-top: 10%;
+	position:fixed;
+	/*padding-top: 6%;*/
+}
+.personal{
+	margin-top: 0;
+}
+.information .personal li{
+	list-style: none;
+}
+.information .personal li a{
+	text-decoration: none;
+	color: white;
+	line-height: 70px;
+	margin-left: -20px;
+	cursor:pointer;
+}
+.information .personal li a:hover{
+	color: #22E6C3;
+}
+.content{
+	width: 60%;
+	/*border:1px solid #1FD6CF;*/
+	float: left;
+	margin-left: 30%;
+	margin-top: 9%;
+}
+.advertise{
+	width: 90%;
+	margin-left:5%;
+	/*border:1px solid blue;*/
+}
+.order{
+	width: 90%;
+	margin-left: 5%;
+	/*border:1px solid blue;*/
+	display:none;
+}
+.mail{
+	width: 90%;
+	margin-left: 5%;
+	/*border:1px solid blue;*/
+	display:none;
+}
+.message{
+	width: 90%;
+	margin-left: 5%;
+	/*border:1px solid blue;*/
+	display:none;
+	line-height: 40px;
+}
+.password{
+	width: 90%;
+	margin-left: 5%;
+	/*border:1px solid blue;*/
+	display:none;
+	line-height: 50px;
+}
+input[type="button"]{
+	background-color: #3BDDDE;
+	color: white;
+	width: 70px;
+	height:30px;
+	border:1px solid #3BDDDE;
+	cursor:pointer;
+	font-size: 14px;
+}

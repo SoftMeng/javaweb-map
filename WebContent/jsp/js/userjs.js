@@ -1,0 +1,37 @@
+$(document).ready(function(){
+	$("#homepage").click(function(){
+		$(".order").css("display","none");
+		$(".message").css("display","none");
+		$(".password").css("display","none");
+		$(".mail").css("display","none");
+		$(".advertise").show(800);
+	});
+	$("#myorder").click(function(){
+		$(".advertise").css("display","none");
+		$(".message").css("display","none");
+		$(".password").css("display","none");
+		$(".mail").css("display","none");
+		$(".order").show(800);
+	});
+	$("#mymail").click(function(){
+		$(".advertise").css("display","none");
+		$(".order").css("display","none");
+		$(".message").css("display","none");
+		$(".password").css("display","none");
+		$(".mail").show(800);
+	});
+	$("#mymessage").click(function(){
+		$(".advertise").css("display","none");
+		$(".order").css("display","none");
+		$(".password").css("display","none");
+		$(".mail").css("display","none");
+		$(".message").show(800);
+	});
+	$("#mypassword").click(function(){
+		$(".advertise").css("display","none");
+		$(".message").css("display","none");
+		$(".order").css("display","none");
+		$(".mail").css("display","none");
+		$(".password").show(800);
+	});
+});

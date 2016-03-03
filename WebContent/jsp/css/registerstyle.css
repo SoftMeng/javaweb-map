@@ -1,0 +1,66 @@
+body{
+	font-family: Arial,Helvetica,"Microsoft YaHei",sans-serif;
+}
+
+.title{
+	margin-top:6%;
+	margin-left: 45%;
+}
+
+a{
+	text-decoration: none;
+	color: #8E8E8E;
+}
+.checked{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+h4{
+	font-size:18px;
+	line-height: 40px;
+}
+
+b{
+	font-weight: bold;
+	margin: 0 30px;
+}
+.content{
+	width: 40%;
+	margin-left: 40%;
+}
+table{
+	padding: 10px;
+	line-height: 40px;
+}
+table tr td label{
+	margin-left: 10px;
+}
+.choose{
+	margin-left: 20px;
+	/*vertical-align: sub;*/
+}
+table tr input{
+	line-height: 25px;
+	margin-left: 10px;
+}
+
+#sign-up{
+	width: 55%;
+	height: 50px;
+	/*margin-left: 70px;*/
+	margin-top: 20px;
+	font-size: 20px;
+	background-color: #49be38;
+	border:1px solid #49be38;
+	border-radius: 5px;
+	cursor:pointer;
+}
+
+.mention{
+	font-size:14px;
+	color: red;
+}

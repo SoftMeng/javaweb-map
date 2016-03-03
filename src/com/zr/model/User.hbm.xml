@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC   
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+    <hibernate-mapping>
+    	<class name="com.zr.model.User" table="tb_user">
+    		<id name="userId" type="java.lang.String" column="user_id" length="50">
+    			<generator class="uuid.hex"/>
+    		</id>
+    		<property name="userType" type="java.lang.String">
+    			<column name="user_type" length="50"/>
+    		</property>
+    		<property name="userName" type="java.lang.String">
+    			<column name="user_name" length="50"/>
+    		</property>
+    		<property name="userPwd" type="java.lang.String">
+    			<column name="user_pwd" length="50"/>
+    		</property>
+    		<property name="userSex" type="java.lang.String">
+    			<column name="user_sex" length="5"/>
+    		</property>
+    		<property name="userAge" type="java.lang.Integer">
+    			<column name="user_age"/>
+    		</property>
+    		<property name="userLoginTime" type="java.util.Calendar">
+    			<column name="user_createtime"/>
+    		</property>
+    		<property name="userCard" type="java.lang.String">
+    			<column name="user_card" length="50"/>
+    		</property>
+    		<property name="userLocation" type="java.lang.String">
+    			<column name="location" length="500"/>
+    		</property>
+    	</class>
+    </hibernate-mapping>
